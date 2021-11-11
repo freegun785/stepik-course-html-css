@@ -26,7 +26,8 @@ a, a:link, a:visited, a:active {
   max-width: 1219px;
   padding: 0 55px;
   margin: 0 auto;
-  overflow-x: scroll;
+  word-wrap: break-word;
+  overflow: hidden;
 }
 
 .navigation-container {
