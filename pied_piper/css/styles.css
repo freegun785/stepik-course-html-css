@@ -1,0 +1,139 @@
+body {
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+}
+
+p {
+  font-size: 32px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+a, a:link, a:visited, a:active {
+  text-decoration: none;
+  color: white;
+}
+
+.site-header {
+  position: sticky;
+  top: 0px;
+  background-color: #007765;
+}
+
+.content-container {
+  max-width: 1219px;
+  padding: 0 55px;
+  margin: 0 auto;
+}
+
+.navigation-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0 19px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/pied_piper/content/img/main-title.png) center no-repeat;
+  min-height: 403px;
+}
+
+.main-title {
+  text-align: center;
+  font-size: 72px;
+  color: #fff;
+}
+
+.section1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 719px;
+  background-color: #EEEEEE;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 64px;
+  color: #007765;
+}
+
+.section2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url(/pied_piper/content/img/container2-bg.png) center no-repeat;
+  min-height: 483px;
+}
+.section2-text {
+  font-family: Roboto, sans-serif;
+  font-style: italic;
+  font-size: 48px;
+  color: #fff;
+  text-align: center;
+}
+
+.section3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 604px;
+}
+
+.PPC-Logo{
+  float: left;
+  margin: 2em 2em 1.5em 3em;
+}
+
+.section4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 845px;
+  background-color: #EEEEEE;
+}
+
+.employee {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin-top: 32px;
+}
+
+.team {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 84px;
+}
+
+.first-caption {
+  font-size: 24px;
+  color: #007765;
+  font-weight: bold;
+  margin-top: 12px;
+}
+
+.second-caption {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  background-color: #333333;
+  min-height: 176px;
+}
+
+.site-footer-text {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+}
