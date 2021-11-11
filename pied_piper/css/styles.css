@@ -39,7 +39,7 @@ a, a:link, a:visited, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/pied_piper/content/img/main-title.png) center no-repeat;
+  background: url(../content/img/main-title.png) center no-repeat;
   min-height: 403px;
 }
 
@@ -67,7 +67,7 @@ a, a:link, a:visited, a:active {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: url(/pied_piper/content/img/container2-bg.png) center no-repeat;
+  background: url(../content/img/container2-bg.png) center no-repeat;
   min-height: 483px;
 }
 .section2-text {
